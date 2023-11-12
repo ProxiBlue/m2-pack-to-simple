@@ -16,8 +16,7 @@ use Psr\Log\LoggerInterface;
 
 class ConvertPackToSimple implements ObserverInterface {
 
-    public function __construct(protected LoggerInterface $logger
-    ) {
+    public function __construct(protected LoggerInterface $logger) {
     }
 
     public function execute(Observer $observer): void {
@@ -26,14 +25,12 @@ class ConvertPackToSimple implements ObserverInterface {
             if (is_object($item) && $item->getProductType() == 'pack') {
                 $item->setProductType('simple');
                 $packOptions = $item->getProductOptions();
-                if (isset($packOptions['info_buyRequest']['pack_option'])) {
-                    $packOptions = $packOptions['info_buyRequest']['pack_option'];
+                if (isset($packOptions['info_buyRequest']['pack_option']['pack_size'])) {
+                    $item->setQtyOrdered($packOptions['info_buyRequest']['pack_option']['pack_size'] * $item->getQtyOrdered());
                 }
-                $item->setQtyOrdered($packOptions['pack_size'] * $item->getQtyOrdered());
             }
         } catch (\Exception $e) {
             $this->logger->critical($e);
         }
     }
-
 }
