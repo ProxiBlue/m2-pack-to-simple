@@ -31,3 +31,12 @@ It also helps if shipping needs to be done in multiple batches as core features 
 
 Basically, things will work normally in admin and beyond as it is once again a simple product
 
+Email
+
+![image](https://github.com/ProxiBlue/m2-pack-to-simple/assets/4994260/ca670189-46bd-4dc1-95da-5ae57db2c02e)
+
+Admin (order/invoice/shipping)
+
+![image](https://github.com/ProxiBlue/m2-pack-to-simple/assets/4994260/07bf9273-89d1-4fba-854f-d5dab5599f46)
+
+
