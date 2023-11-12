@@ -37,6 +37,7 @@ Email
 
 Admin (order/invoice/shipping)
 
-![image](https://github.com/ProxiBlue/m2-pack-to-simple/assets/4994260/07bf9273-89d1-4fba-854f-d5dab5599f46)
+![image](https://github.com/ProxiBlue/m2-pack-to-simple/assets/4994260/ec4b68f0-741e-4520-ab06-853f95251050)
+
 
 
