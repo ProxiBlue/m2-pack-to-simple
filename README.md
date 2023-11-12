@@ -19,7 +19,7 @@ You can install via composer:
 ## Usage
 
 Once installed, any Pack product will be converted to a simple product after checkout is completed.
-The pack quantity will be set as the simple product qty ordered.
+The pack quantity will be set as the simple product qty ordered * the qty of packs ordered.
 The pack product options will remain attached to the simple product, so it can still be seen as having been a pack product.
 
 ## Why?
