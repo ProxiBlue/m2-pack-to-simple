@@ -11,7 +11,7 @@ This small module will convert a Pack Product () to a simple product after check
 You can install via composer:
 
 * run: `composer config repositories.github.repo.repman.io composer https://github.repo.repman.io`
-* use composer `composer require proxi-blue/m2-pack-to-simple`
+* use composer `composer require proxi-blue/module-pack-to-simple`
 * enable: `./bin/magento module:enable ProxiBlue_PackToSimple`
 * run: `./bin/magento setup:upgrade`
 * run: `./bin/magento setup:di:compile`
