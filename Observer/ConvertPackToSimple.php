@@ -1,4 +1,11 @@
 <?php
+/**
+ * PackToSimple
+ * @category ProxiBlue
+ * @package  ProxiBlue_PackToSimple
+ * @license  MIT https://opensource.org/licenses/MIT
+ * @author Lucas van Staden (lucas@proxiblue.com.au)
+ */
 declare(strict_types=1);
 
 namespace ProxiBlue\PackToSimple\Observer;
