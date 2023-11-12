@@ -24,9 +24,11 @@ The pack product options will remain attached to the simple product, so it can s
 
 ## Why?
 
-Since Packs are not native m2 product types, 3rd party systems like shiping / finance / tax systems can have issues to export/import the ordered items to their systems
+Since Packs are not native m2 product types, 3rd party systems like shiping / finance / tax systems can have issues to export/import the ordered items to their systems.
 This change facilitates that still working.
+
 It also helps if the user needs to have n number of items refunded/returned.
+
 It also helps if shipping needs to be done in multiple batches as core features can be used to set shipped n qty of items at a time.
 
 Basically, things will work normally in admin and beyond as it is once again a simple product
