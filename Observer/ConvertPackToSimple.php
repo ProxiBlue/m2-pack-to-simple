@@ -27,6 +27,10 @@ class ConvertPackToSimple implements ObserverInterface {
                 $packOptions = $item->getProductOptions();
                 if (isset($packOptions['info_buyRequest']['pack_option']['pack_size'])) {
                     $item->setQtyOrdered($packOptions['info_buyRequest']['pack_option']['pack_size'] * $item->getQtyOrdered());
+                    $originalPrice = $item->getOriginalPrice();
+                    $item->setBasePrice($originalPrice);
+                    $item->setPrice($originalPrice);
+                    $item->setBasePrice($originalPrice);
                 }
             }
         } catch (\Exception $e) {
