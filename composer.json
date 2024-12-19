@@ -5,7 +5,7 @@
   "type": "magento2-module",
   "require": {
       "magento/framework": "*",
-      "enanobots/m2-product-pack": "^1.1"
+      "qoliber/m2-product-pack": "^1.1"
   },
   "license": [
     "Massachusetts Institute of Technology License (MITL)"
